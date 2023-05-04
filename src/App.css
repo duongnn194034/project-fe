@@ -13,3 +13,20 @@
   max-width: 300px;
   margin: auto;
 }
+
+.nav-item {
+  padding: 0 0.5em;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.bg-primary:hover {
+  background-color: var(--cyan) !important;
+}
+
+#burger {
+  height: 1.5rem;
+  width: 2.5rem;
+  visibility: collapse;
+}
